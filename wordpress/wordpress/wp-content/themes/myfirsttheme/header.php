@@ -6,4 +6,7 @@
     <?php wp_head(); ?>
   </head>
 
-  <body>
+  <body class="gradient">
+
+    <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+    What will the world be like when you wake?
